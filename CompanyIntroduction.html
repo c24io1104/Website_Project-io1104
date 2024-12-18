@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="https://cdn.cloudflare.steamstatic.com/valvesoftware/images/favicon.ico">
+  <title>Valve Introduction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <style>
+    /* Apply box-sizing globally */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(37, 37, 37);
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%; /* Full-width layout */
+      display: flex; /* Flexbox for layout */
+      height: 3000px; /* Match the height of child elements */
+    }
+
+    aside {
+      position:relative;
+      top:0px;
+      width: 35%;
+      height:860px;
+      color:rgb(190, 190, 190);
+      z-index:0; /* Occupy 25% of the width this is the banner left side*/
+      background-color: rgb(26,26,36);
+    }
+
+    article {
+      position:absolute;
+      right:0px;
+      top:0px;
+      width: 65%; /* This is the main body section */
+      height:860px;
+      background-color: rgba(242,69,65);
+      color: rgb(255, 255, 255);
+    }
+
+    header {
+    position:absolute;
+    background-color:rgb(26,26,36);
+    top:450px;
+    right:0px;
+    height:431px;
+    width:350px;
+    color:white;
+    }
+
+    .header-image {
+      position: absolute;
+      width: 856.75px;
+      height: 200px;
+      z-index: 2; /* Ensure it is above the background color */
+      pointer-events: none; /* Prevent it from covering the text */
+    }
+
+    .header-text {
+      position: relative;
+      z-index: 3; /* Ensure it is above both the image and background color */
+      color: white;
+      font-size: 50px;
+      text-align: center;
+    }
+    mark {
+    position:absolute;
+    width:856.75px;
+    height:800px;
+    top:685px;
+    left:476px;
+    background-color:rgba(0, 255, 255, 0);
+    }
+    .blyat {
+      position: relative;
+      top: 20px;
+      left: 10px;
+      z-index:2;
+    }
+    .background {
+    z-index:2;
+    position:absolute;
+    left:0px;
+    }
+    main{
+      position:absolute;
+      width:100%;
+      background-image: linear-gradient(white, rgb(44, 44, 44));
+      height:300px;
+      top:1390px;
+      z-index:1;
+    }
+    figure{
+      position:absolute;
+      width:100%;
+      height:1000px;
+      top:1690px;
+      background-color:rgb(44, 44, 44);
+      color:white;
+    }
+    H1 {
+      position:absolute;
+      top:350px;
+      left:400px;
+      font-size: 60px;
+      font-family:"Times New Roman", Times, serif;;
+      color:white;
+    }
+    .stupid {
+      position:absolute;
+    top:10px;
+    padding-left:60px;
+  }
+  .stupid2 {
+    position:relative;
+    top:10px;
+    padding-left:60px;
+  }
+  .portal {
+  top:-70px;
+  position:absolute;
+  left:0px;
+  }
+  .portaltitle{
+    position:absolute;
+  top:30px;
+  }
+  .left {
+    position:relative;
+    float:right;
+    padding-right:300px;
+  }
+  .middle {
+position:absolute;
+    top:100px;
+    right:200px;
+    filter: hue-rotate(-15deg);
+  }
+  footer{
+   position:relative;
+   bottom:0px;
+   width:100%;
+   height:46px;
+   background-color:rgb(26,26,36);
+  }
+  .red {
+    color:rgb(233, 69, 69);
+  }
+  .red2 {
+    color:rgb(233, 69, 69);
+    padding-left:40px;
+    padding-top:40px;
+    top:40px;
+  }
+  .padding2{
+    padding-left:32px;
+  }
+  .padding {
+    padding-left:32px;
+    padding-top:0px;
+  }
+  .menu-item {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+
+.v1 {
+  position:absolute;
+  height: 60px; 
+  border-left: 1px solid rgb(233, 69, 69);  
+  margin-left: 33px; 
+  padding-left: 20px;
+}
+.v2{
+  position:absolute;
+  height: 20px; 
+  border-left: 1px solid rgb(233, 69, 69);  
+  margin-left: 33px; 
+  padding-left: 20px;
+}
+.black{
+  position:relative;
+  left:70px;
+  width:500px;
+  top:550px;
+  font-size:19px;
+  color:black;
+}
+.f{
+  color:white;
+  text-decoration:none;
+ }
+  span {
+    color:rgb(99, 99, 99)
+  }
+  .glow-text {
+      color: rgb(190, 190, 190);
+      transition: all 0.2s ease; 
+      text-decoration:none;
+    }
+
+    .glow-text:hover {
+      color: #ffffff; 
+    }
+  </style>
+</head>
+<aside>
+<img class="padding" src="images/Valve-Logo.png" width="140px" height="70px">
+<br><br><br>
+<p class="red" ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STUFF</b></p>
+<br><br>
+  <p class="v1 glow-text"><a class="f" href="file:///C:/Users/SEC/Desktop/Work/IO111/ioi111/Work_IO/Web_Development-IOI113/VALVE%20Company%20Frontpage/CompanyIntroduction.html">&nbsp;ABOUT US</a></p>
+  <br><br><br>
+  <p class="v1 glow-text"><a class="f" href="file:///C:/Users/SEC/Desktop/Work/IO111/ioi111/Work_IO/Web_Development-IOI113/VALVE%20Company%20Frontpage/ActivityIntroduction.html">&nbsp;OUR WORK</a></p>
+  <br><br><br>
+  <p class="v2 glow-text"><a class="f" href="file:///C:/Users/SEC/Desktop/Work/IO111/ioi111/Work_IO/Web_Development-IOI113/VALVE%20Company%20Frontpage/ContactLine.html">&nbsp;CONTACT US</a></p>
+  <br><br><br>
+<p class="padding2 glow-text"><a class="glow-text" href="https://store.steampowered.com/"> STEAM</a></p>
+<br><br>
+<p class="padding2 glow-text"><a class="glow-text" href="file:///C:\Users\SEC\Desktop\Work\IO111\ioi111\Work_IO\Web_Development-IOI113\VALVE Company Frontpage\Games.html"> GAMES</a></p>
+<br><br>
+<p class="padding2 glow-text"><a class="glow-text" href="https://partner.steamgames.com/"> STEAM PARTNERS</a></p>
+</div>
+
+</aside>
+<article>
+<img class="stupid" src="images/STEAMM.png" width="180px" height="60px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img class="stupid2" src="images/SteamWORKS.png" width="300px" height="80px">
+<p class="black">
+Valve's debut title, Half-Life, was released in 1998.
+It won <br> more than 50 game of the year awards, and PC Gamer <br> even called it the Best PC Game Ever.
+<br><br><br>
+Since then, we've released dozens of titles that changed <br> the world.
+Today, millions of people play our games <br> every day. </p>
+</article>
+<body>
+  <h1>At Valve we make<br> games, Steam, and<br> hardware.</h1>
+</body>
+<header>
+  <br><br>
+  <span class="red2"><b>NEWS</b></span> <span>| 14.05.2021</span>
+  <br><br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADVANCED VR <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RENDERING PERFORMANCE.</p>
+    <br><br>
+  <span class="red2"><b>JOBS</b></span> <span>| 14.05.2021</span>
+  <br><br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRACTICAL DEVELOPMENT <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOR VULKAN.</p>
+    <br><br>
+  <span class="red2"><b>GAMES</b></span> <span>| 14.05.2021</span>
+  <br><br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEVELOPING ROOM-SCALE VR<br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GAMES.</p>
+</header>
+<footer>
+
+</footer>
+</html>
